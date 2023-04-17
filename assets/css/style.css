@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    width: 100%;
+    height: auto;
+}
+
+/* arribita*/
+
+#arriba{
+    width: 100%;
+    height: 60px;
+    padding-top: 17px;
+    margin-bottom: 0;
+    background-color: black;
+}
+
+/*Menu*/
+
+#menu-ul{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.icono{
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+    fill: white;
+    display: inline-block;
+}
+
+.menu-li{
+    color: white;
+    display: inline;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    text-decoration: none;      /*No pude quitar el subrayado de los textos con text-decoration: none en el apartado CSS, así que lo hice con style en la misma etiqueta de la sección html. Lo intenté.*/
+}
+
+/* Fin del menú*/
+
+/*Sección del medio*/
+
+#caja-1{ /*Meet & Coffee*/
+    width: 100%;
+    height: 422px;
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center;
+}
+
+#texto-caja-1{
+    width: auto;
+    height: auto;
+    color: black;
+    text-align: right;
+    position: relative;
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    text-shadow: 4px 2px 4px black, 2.5px 2px 1px black;
+    top: 10%;
+    left: 50%;
+    transform: translate(-90%, -400%);
+}
+
+#texto-caja-1 h2{
+    font-weight: lighter;
+}
+
+#caja-2{    /* ¿Dónde nos juntamos?*/
+    width: 100%;
+    height: 830px;
+    margin-bottom: -270px;
+}
+
+#imagen-caja-2{
+    width: 519px;
+    height: 344px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 790px;
+}
+
+#texto-caja-2{
+    width: 450px;
+    height: 150px;
+    margin-left: 820px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#caja-3{    /*Próxima charla*/
+    width: 100%;
+    height: 501px;
+    background-color: brown;
+    text-align: center;
+}
+
+#imagen-caja-3{
+    width:  310px;
+    height:  294px;
+    background-position: center;
+    margin-left: 260px;
+    margin-top: 104px;
+    margin-bottom: 104px;
+    display: inline-block;
+
+}
+
+#texto-caja-3{
+    width: 540px;
+    height: 300px;
+    margin-top: 104px;
+    margin-bottom: 104px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    margin: 0;
+
+    top: 1%;
+    left: 1%;
+    transform: translate(0%, -5%);
+}
+
+#texto-caja-3 h4, h5{
+    margin: 0;
+    font-weight: lighter;
+}
+
+#caja-4{    /*Eventos Anteriores*/
+    margin-top: 100px;
+    width: 100%;
+    height: 520px;
+}
+
+#caja-4 h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.subcajas-4{
+    width: 415px;
+    height: 244px;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-bottom: 41px;
+    background-size: cover;
+    display: inline-block;
+}
+
+#imagen-caja4-1{
+    width: 350px;
+    margin-left: 70px;
+}
+
+#imagen-caja4-2{
+    width: 320px;
+    margin-left: 60px;
+}
+
+#imagen-caja4-3{
+    width: 320px;
+    margin-left: 40px;
+}
+
+/* Fin sección del medio*/
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.icons{
+    width: 50px;
+    margin-right: 2px;
+    fill: white;
+    display: inline;
+}
+
+footer p{
+    text-align: center;
+    vertical-align: bottom;
+}
+
+/*Fin del Footer*/
+
+
+/* Me rompí la cabeza haciendo esta sección de CSS,
+principalmente por los desbordes y alineaciones.
+Bajé al infierno, volví, me devolví porque se me
+quedó algo, regresé de nuevo y lo terminé.
+Tuve que invocar magia china en algunas partes para
+solucionarlo gracias a W3ChatGPT para solucionar cosas
+puntuales que no terminan siendo rutinarias a la larga, 
+pero aún así algo consistente se aprende. Falta más práctica.
+Ninguna madre fue injuriada verbalmente en la 
+realización de este ejercicio.
+Gracias por leer y buen día. */
